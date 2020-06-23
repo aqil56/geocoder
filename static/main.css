@@ -1,0 +1,39 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+
+.container {
+    margin : 0 auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    overflow: hidden;
+    color: rgb(118, 139, 0);
+}
+
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(238, 204, 217);
+    margin-top: 80px;
+  }
+
+  .container {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: lightcoral;
+      margin-top: 10px;
+  }
+
+  .download {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      margin-top: 3px;
+  }

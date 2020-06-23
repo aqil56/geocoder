@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> latitude longtitude converter </title>
+<head>
+<link href="../static/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>File Collector</h1>
+        <h3>please choose a file to be converted</h3>
+        <form action="{{url_for ('success')}}" method='Post' enctype="multipart/form-data">
+            <input type="file" name="file" placeholder="choose file"> <br>
+            <button type="submit"> Submit </button>
+        </form>
+        {{text | safe}} 
+        {% include btn ignore missing %}
+    </div>
+</body>
+
+</html>
